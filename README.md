@@ -20,17 +20,17 @@ implements: obliga a una clase a acatar un contrato establecido por una interfaz
 
 # 5. Ejemplificar cómo tipar:
 ## a. Una función con parámetros obligatorios y opcionales.
--En TypeScript, los parámetros obligatorios son los que siempre se deben pasar al llamar la función.
--Los parámetros opcionales se indican con un signo ? y pueden o no pasarse.
--Tipar estos parámetros permite que el compilador sepa qué tipo de valor esperar para cada uno.
+- En TypeScript, los parámetros obligatorios son los que siempre se deben pasar al llamar la función.
+- Los parámetros opcionales se indican con un signo ? y pueden o no pasarse.
+- Tipar estos parámetros permite que el compilador sepa qué tipo de valor esperar para cada uno.
 
 ### Ejemplo conceptual:
 Función que recibe un nombre (obligatorio) y un apellido (opcional).
 El compilador sabe que nombre siempre será string y apellido puede ser string o undefined.
 
 ## b. Una función que devuelve una Promise.
--Cuando una función devuelve una Promise, se debe indicar el tipo de dato que resolverá esa promesa.
--Esto permite que TypeScript sepa qué tipo de valor estará disponible cuando la promesa se cumpla y poder manejarlo correctamente.
+- Cuando una función devuelve una Promise, se debe indicar el tipo de dato que resolverá esa promesa.
+- Esto permite que TypeScript sepa qué tipo de valor estará disponible cuando la promesa se cumpla y poder manejarlo correctamente.
 
 ### Ejemplo conceptual:
 Función que devuelve una promesa de un número.
