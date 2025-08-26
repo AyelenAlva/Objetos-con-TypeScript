@@ -4,9 +4,9 @@ import { Usuario } from "./models/Usuario.js";
 import { Material } from "./models/Material.js";
 
 //  2 libros y 1 revista
-const libro1 = new Libro(1, "Ciencia", "Gabriel García ", 496, "Realismo");
+const libro1 = new Libro(1, "Ciencia", "Fernandez ", 496, "Realismo");
 const libro2 = new Libro(2, "Sol", "Ayelen Alva", 328);
-const revista1 = new Revista(3, "Formosa", "Varios autores", "Septiebre");
+const revista1 = new Revista(3, "Formosa", "Varios autores", "Septiembre");
 
 const usuario1 = new Usuario(101, "Ana Alva");
 
